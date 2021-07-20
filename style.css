@@ -170,6 +170,7 @@ pre {
 
 textarea {
   overflow: auto;
+  background-color: #266476;
 }
 
 .ie6 legend, .ie7 legend {
@@ -200,7 +201,7 @@ input:invalid, textarea:invalid {
 }
 
 .no-boxshadow input:invalid, .no-boxshadow textarea:invalid {
-  background-color: #f0dddd;
+  background-color: teal;
 }
 
 button {
@@ -362,7 +363,7 @@ html[xmlns] .slides {
   overflow: hidden;
   opacity: 0;
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   transition: all .3s ease;
